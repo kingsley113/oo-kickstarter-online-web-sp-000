@@ -1,10 +1,11 @@
 require 'pry'
 
 class Project
-  attr_accessor :title
+  attr_accessor :title :backers
 
-  def initialize(title)
+  def initialize(title, backers)
     @title = title
+    @backers = backers
   end
 
 
